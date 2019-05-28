@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    display: flex;
+    height: 100vh;
+       
+}
+.aside{
+    width: 300px;
+    flex: none;
+    background-color: #3B7BA7;
+    padding:50px;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    
+       
+}
+.main{
+    flex: auto;
+    background-color: white;
+    padding:50px;
+    justify-content: center;
+    display:flex;
+    flex-direction: column; 
+}
+
+.aside,.main{
+    
+}
+
+img{
+    max-width: 100%;
+    border-radius: 50%;
+    
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+}
+p{
+   font-family: 'Cinzel Decorative', cursive;
+   color: #939393 ;
+}
+.nom{
+    color: #7ba73b;
+}
